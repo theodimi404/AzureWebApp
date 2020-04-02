@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>A simple webpage </title>
+  </head>
+
+  <body>
+    <h1>A simple webpage by Theodor Dimitriades</h1>
+    <p>Welcome to a basic static HTML page powered by Azure Web Apps! I created this webpage, so I can learn how to deploy a web app using Microsoft's Azure</p>
+    <p>I used the free trial subscribtion, so 30 days after its deployment, it will not be live.</p>
+	<p>The steps that I will follow, to clone this file from my git-repo will be the following:</p>
+    
+	<ol>
+		<li>I opened the Cloud Shell in Azure and I cloned the file using this command: git clone https://github.com/testWebPageAzure.git</li>
+		<li>I defined my git settings using: 
+			<ul>
+				<li>git config --global user.email "myEmail"</li>
+				<li>git config --global user.name "myUsername"</li>
+			</ul>
+		</li>
+		<li>To get ready to upload this, I initialized Git and then added and committed my file using the command: git init && git add . && git commit -m "file name"</li>
+		<li>Then I used the follwing command: git remote add azure my-git-clone-URL</li>
+		<li>And finally I used the command git push azure master</li>
+	</ol>	
+
+  </body>
+
+</html>
